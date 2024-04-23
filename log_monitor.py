@@ -10,7 +10,8 @@ logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger(__name__)
 
 # Specify the path to the log file to monitor
-LOG_FILE_PATH = "/home/bharath/test_log_file.log"
+LOG_FILE_PATH="/path/to/your/log/file.log"
+
 
 # Initialize dictionary to store keyword counts
 keyword_counts = {"error": 0, "exception": 0}
