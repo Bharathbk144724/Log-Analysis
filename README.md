@@ -1,5 +1,7 @@
-Log Analysis and Monitoring Script 
+Log Analysis and Monitoring ScriptÂ 
+
 Introduction
+
 This Python script automates log analysis and monitoring, providing real-time insights into your application's log files. It continuously monitors a specified log file, analyzes entries for specific keywords or patterns, and generates summary reports.
 Features
 * Continuous Monitoring: Tracks new entries in the log file using tail -f.
@@ -30,7 +32,8 @@ python log-monitor.py
 Output
 * The script will continuously display new log entries in real-time.
 * When interrupted with Ctrl+C, it will generate and display a summary report showing the top occurring keywords and their counts.
-Additional 
+  
+AdditionalÂ 
 * This script provides a foundation for log analysis. We can further customize for specific needs:
 o Advanced Filtering: Implement filtering based on log levels, patterns, or specific fields.
 o Alerting: Integrate email, SMS, or service APIs for notifications on critical errors.
